@@ -1,0 +1,53 @@
+#AVIMRControl {
+	background:#EEEEEE;
+	-moz-border-radius-bottomleft: 9px;
+	-khtml-border-bottom-left-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+	-khtml-border-bottom-right-radius: 9px;
+	-webkit-border-bottom-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	border:1px solid #D54E21;
+	top:0px;
+	margin-left:30%;
+	position:fixed;
+	text-align:left;
+	width:40%;
+	z-index:10000;
+}
+body > #AVIMRControl {
+	position: fixed;
+}
+#AVIMRControl input {
+	margin: 0 0 0 9px;
+	position: relative;
+	top: -2px;
+	vertical-align: middle;
+}
+.AVIMRControl {
+	float: left;
+	padding: 0;
+	margin: 0;
+	color: #21759b;
+	font-family:Verdana,Tahoma;
+	font-size:10px;
+	font-weight:bold;
+	font-style: normal;
+}
+.AVIMRControl #separator {
+	margin: 0 15px;
+}
+.AVIMRControl_r {
+	float: right;
+	padding: 2px 9px 0 0;
+}
+.AVIMRControl_r a#AVIMRlink {
+	color: #21759b;
+	font-family:Verdana,Tahoma;
+	font-size:10px;
+	font-weight:bold;
+	font-style: normal;
+	text-decoration: none;
+	cursor: pointer;
+}
